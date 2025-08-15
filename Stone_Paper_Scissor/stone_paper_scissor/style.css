@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: #BFB59E; 
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;  
+}
+
+.choice {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    opacity: .9;
+     transform: scale(1.15);
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1rem;
+
+}
+
+.msg_container {
+    margin-top: 5rem;
+}
+#msg {
+    background-color: #081b31;
+     margin-top: 5rem;
+     color: #fff;
+     font-size: 2rem;
+     display: inline;
+     border-radius: .5rem;
+}
+
+.btn_container {
+    margin-top: 2rem;
+    
+}
+
+#resetBtn {
+    padding: 0.7rem 1.5rem;
+    font-size: 1.2rem;
+    background-color: #081b31;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#resetBtn:hover {
+    background-color: #0a2a4a;
+    transform: scale(1.2) ;
+
+}
+
+
+.score_board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  flex-wrap: wrap; /* Allows responsiveness */
+}
+
+.score {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 1.2rem;
+  text-align: end;
+  
+}
+
+.circle img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
